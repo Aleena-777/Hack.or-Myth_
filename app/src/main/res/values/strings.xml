@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hack or Myth</string>
+    <string name="introduction">Life Hack or Urban Myth</string>
+    <string name="begin">Start</string>
+    <string name="message1">Test your common sense!!</string>
+    <string name="message2">Can you spot the real hacks?</string>
+    <string name="truth">Hack</string>
+    <string name="myth">Myth</string>
+    <string name="next">Next</string>
+    <string name="review">Review</string>
+</resources>

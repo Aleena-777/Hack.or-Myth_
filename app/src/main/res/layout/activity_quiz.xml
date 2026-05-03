@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wavy">
+
+    <TextView
+        android:id="@+id/quizView"
+        android:layout_width="322dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="188dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnHack"
+        android:layout_width="163dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="75dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:fontFamily="@font/racing_sans_one"
+        android:text="@string/truth"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNext"
+        app:layout_constraintEnd_toStartOf="@+id/btnMyth"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnMyth"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="75dp"
+        android:backgroundTint="@color/design_default_color_error"
+        android:fontFamily="@font/racing_sans_one"
+        android:text="@string/myth"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/answerView"
+        android:layout_width="160dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="177dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHack" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="187dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="213dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:fontFamily="@font/racing_sans_one"
+        android:text="@string/next"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answerView"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

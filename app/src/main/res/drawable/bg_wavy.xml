@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="800dp"
+    android:viewportWidth="360"
+    android:viewportHeight="800">
+
+    <!-- Solid background color -->
+    <path
+        android:fillColor="@color/primary_blue"
+        android:pathData="M0,0h360v800h-360z" />
+
+    <!-- Wave path at the top -->
+    <path
+        android:fillColor="@color/dark_blue"
+        android:pathData="M0,0 L360,0 L360,150 Q270,100 180,150 T0,150 Z" />
+
+    <!-- Wave path at the bottom -->
+    <path
+        android:fillColor="@color/dark_blue"
+        android:pathData="M0,800 L360,800 L360,650 Q270,700 180,650 T0,650 Z" />
+</vector>
